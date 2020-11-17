@@ -14,7 +14,7 @@ Prepare all of the following before installing:
 2. **Choose an operational mode:** Decide how Terraform Enterprise should store its data. This is affected by your choice of deployment method.
 3. **Credentials:** Ensure you have a Terraform Enterprise license and a TLS certificate for Terraform Enterprise to use.
 4. **Data storage:** Depending on your operational mode, prepare data storage services or a block storage device.
-5. **Linux instance:** Prepare a running Linux instance for Terraform Enterprise. This might require additional configuration or software installation, depending on the OS and your operational requirements. [See below](#linux-instance) for further details.
+5. **Linux instance:** Prepare a running Linux instance for Terraform Enterprise. This might require additional configuration or software installation, depending on the OS and your operational requirements. Also check the Terraform Enterprise [pre-install checklist](https://www.terraform.io/docs/enterprise/before-installing/index.html) for further details.
 
 ## Operational Mode Decision
 
@@ -140,6 +140,27 @@ For other Linux distributions, check Docker compatibility:
 Terraform Enterprise's instance profile serves as default credentials for Terraform's AWS provider. Workspaces without environment variables for credentials will attempt to use the instance profile to provision AWS resources.
 
 The instance profile of Terraform Enterprise's instance is the operator's responsibility. If you plan to specify any non-default permissions for Terraform Enterprise's instance profile, be aware that Terraform runs might use those permissions and plan accordingly.
+
+#### AWS S3 IAM Profile
+
+Terraform Enterprise's usage of S3 requires these permissions:
+
+```
+{
+    "Effect": "Allow",
+    "Action": [
+        "s3:PutObject",
+        "s3:ListBucket",
+        "s3:GetObject",
+        "s3:DeleteObject",
+        "s3:GetBucketLocation"
+    ],
+    "Resource": [
+        "<BUCKET_ARN>",
+        "<BUCKET_ARN>/*"
+    ]
+}
+```
 
 ### SELinux
 
