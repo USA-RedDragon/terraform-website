@@ -50,8 +50,8 @@ the internal database or Vault may result in serious performance issues.
 
 | Type        | CPU Sockets | Total Cores\* | Memory       | Disk |
 | ----------- | ----------- | ------------- | ------------ | ---- |
-| Minimum     | 2           | 2             | 8 GB RAM     | 40GB |
-| Recommended | 2           | 4             | 16-32 GB RAM | 40GB |
+| Demo        | 2           | 2             | 8 GB RAM     | 40GB |
+| Production  | 2           | 4             | 16-32 GB RAM | 40GB |
 
 -> **Note:** Per VMWare’s recommendation, always allocate the least amount of CPU necessary. HashiCorp recommends starting with 2 CPUs and increasing if necessary.
 
@@ -245,5 +245,5 @@ and is not covered in this document. We do recommend regular database snapshots.
 
 | Type        | CPU Sockets | Total Cores | Memory       | Storage |
 | ----------- | ----------- | ----------- | ------------ | ------- |
-| Minimum     | 2           | 2 core      | 8 GB RAM     | 50GB    |
-| Recommended | 2           | 4-8 core    | 16-32 GB RAM | 50GB    |
+| Demo        | 2           | 2 core      | 8 GB RAM     | 50GB    |
+| Production  | 2           | 4-8 core    | 16-32 GB RAM | 50GB    |

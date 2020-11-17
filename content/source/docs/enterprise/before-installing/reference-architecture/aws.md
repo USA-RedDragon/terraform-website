@@ -39,8 +39,8 @@ or “Burstable CPU” in AWS terms, such as T-series instances.
 
 | Type        | CPU      | Memory       | Disk | AWS Instance Types    |
 |-------------|----------|--------------|------|-----------------------|
-| Minimum     | 2 core   | 8 GB RAM     | 50GB | m5.large              |
-| Recommended | 4-8 core | 16-32 GB RAM | 50GB | m5.xlarge, m5.2xlarge |
+| Demo        | 2 core   | 8 GB RAM     | 50GB | m5.large              |
+| Production  | 4-8 core | 16-32 GB RAM | 50GB | m5.xlarge, m5.2xlarge |
 
 #### Hardware Sizing Considerations
 
@@ -54,8 +54,8 @@ or “Burstable CPU” in AWS terms, such as T-series instances.
 
 | Type        | CPU      | Memory       | Storage | AWS Instance Types          |
 |-------------|----------|--------------|---------|-----------------------------|
-| Minimum     | 2 core   | 8 GB RAM     | 50GB    | db.m4.large                 |
-| Recommended | 4-8 core | 16-32 GB RAM | 50GB    | db.m4.xlarge, db.m4.2xlarge |
+| Demo        | 2 core   | 8 GB RAM     | 50GB    | db.m4.large                 |
+| Production  | 4-8 core | 16-32 GB RAM | 50GB    | db.m4.xlarge, db.m4.2xlarge |
 
 #### Hardware Sizing Considerations
 

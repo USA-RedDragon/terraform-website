@@ -46,8 +46,8 @@ instances.
 
 | Type        | CPU      | Memory       | Disk | Azure VM Sizes                     |
 | ----------- | -------- | ------------ | ---- | ---------------------------------- |
-| Minimum     | 2 core   | 8 GB RAM     | 50GB | Standard\_D2\_v3                   |
-| Recommended | 4-8 core | 16-32 GB RAM | 50GB | Standard\_D4\_v3, Standard\_D8\_v3 |
+| Demo        | 2 core   | 8 GB RAM     | 50GB | Standard\_D2\_v3                   |
+| Production  | 4-8 core | 16-32 GB RAM | 50GB | Standard\_D4\_v3, Standard\_D8\_v3 |
 
 #### Hardware Sizing Considerations
 
@@ -67,8 +67,8 @@ instances.
 
 | Type        | CPU      | Memory      | Storage | Azure DB Sizes                                     |
 | ----------- | -------- | ----------- | ------- | -------------------------------------------------- |
-| Minimum     | 2 core   | 4 GB RAM    | 50GB    | General Purpose 2 vCores                           |
-| Recommended | 4-8 core | 8-16 GB RAM | 50GB    | General Purpose 4 vCores, General Purpose 8 vCores |
+| Demo        | 2 core   | 4 GB RAM    | 50GB    | General Purpose 2 vCores                           |
+| Production  | 4-8 core | 8-16 GB RAM | 50GB    | General Purpose 4 vCores, General Purpose 8 vCores |
 
 #### Hardware Sizing Considerations
 

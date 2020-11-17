@@ -39,8 +39,8 @@ or “Shared-core machine types” in GCP terms, such as f1-series and g1-series
 
 | Type        | CPU      | Memory       | Disk        | GCP Machine Types              |
 |-------------|----------|--------------|-------------|--------------------------------|
-| Minimum     | 2 core   | 7.5 GB RAM   | 50GB/200GB* | n1-standard-2                 |
-| Recommended | 4-8 core | 15-30 GB RAM | 50GB/200GB* | n1-standard-4, n1-standard-8   |
+| Demo        | 2 core   | 7.5 GB RAM   | 50GB/200GB* | n1-standard-2                 |
+| Production  | 4-8 core | 15-30 GB RAM | 50GB/200GB* | n1-standard-4, n1-standard-8   |
 
 #### Hardware Sizing Considerations
 
@@ -60,8 +60,8 @@ or “Shared-core machine types” in GCP terms, such as f1-series and g1-series
 
 | Type        | CPU      | Memory       | Storage | GCP Machine Types            |
 |-------------|----------|--------------|---------|------------------------------|
-| Minimum     | 2 core   | 8 GB RAM     | 50GB    | Custom PostgreSQL Production |
-| Recommended | 4-8 core | 16-32 GB RAM | 50GB    | Custom PostgreSQL Production |
+| Demo        | 2 core   | 8 GB RAM     | 50GB    | Custom PostgreSQL Production |
+| Production  | 4-8 core | 16-32 GB RAM | 50GB    | Custom PostgreSQL Production |
 
 #### Hardware Sizing Considerations
 

@@ -110,7 +110,8 @@ Terraform Enterprise application as well as the Terraform plans and applies.
 * At least 10GB of disk space on the root volume
 * At least 40GB of disk space for the Docker data directory (defaults to `/var/lib/docker`)
 * At least 8GB of system memory
-* At least 2 CPU cores
+* At least 2 CPU cores (Demo mode)
+* At least 4 CPU cores (Mounted disk or external services mode)
 
 ### Network Requirements
 
